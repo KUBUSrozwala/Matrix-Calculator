@@ -1,7 +1,7 @@
 # 🧮 Step-by-Step Matrix Calculator
 
 A beginner-friendly desktop app that **solves 2×2 and 3×3 matrix operations step-by-step** — made for students, math enthusiasts, and educators. Built using **PyQt6** with a clean and modern GUI, this tool doesn’t just give the answer — it **shows every step** involved in calculating matrix addition, subtraction, multiplication, determinant, and inverse.
-
+---
 ## 🎥 Demo Video
 
 
