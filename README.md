@@ -4,10 +4,12 @@ A beginner-friendly desktop app that **solves 2×2 and 3×3 matrix operations st
 
 ## 🎥 Demo Video
 
-🎬 [Click here to watch the demo](assets/demo.mp4)
+
+https://github.com/user-attachments/assets/de2c1f42-453d-43ce-a136-72712763efb3
 
 
 
+---
 
 ## ✨ Features
 
