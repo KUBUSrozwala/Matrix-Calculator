@@ -10,7 +10,13 @@ https://github.com/user-attachments/assets/de2c1f42-453d-43ce-a136-72712763efb3
 
 
 ---
+## 📄 IEEE Project Report
 
+You can read the official IEEE-format project report below:
+
+👉 [IEEE_MatrixCalC_Report.pdf](docs/IEEE_MatrixCalC_Report.pdf)
+
+---
 ## ✨ Features
 
 - ✅ **2×2 and 3×3 Matrix Support**
